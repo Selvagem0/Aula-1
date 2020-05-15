@@ -1,0 +1,26 @@
+body {
+    background-image:
+      url(https://i1.wp.com/css-tricks.com/wp-content/uploads/2017/09/linear-gradient.png?ssl=1);
+    background-size: 100vw 100vh;
+    font-family: Arial;
+    height: 100vh
+  }
+  a{
+    text-decoration: none;
+  }
+  a:hover {
+    font-style: italic;
+    text-decoration: underline;
+  }
+  .menu ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  .menu li {
+    list-style: none;
+  }
+  .site-title,
+  .site-subtitle {
+    text-align: center;
+    font-style: italic;
+  }
